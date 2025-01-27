@@ -1,0 +1,9 @@
+<suite name="Selenium Test Suite" verbose="1">
+<parameter name="viewMode" value="mobile"/>
+<!--  Change to "mobile" for mobile view  -->
+<test name="Login Tests">
+<classes>
+<class name="org.example.LoginTest"/>
+</classes>
+</test>
+</suite>
